@@ -108,17 +108,6 @@ terraform destroy -var-file=dev.tfvars
 
 Replace the environment file as needed for the targeted workspace.
 
-## Example Variables
-
-Each environment file contains the required values for the instance, such as:
-
-```hcl
-instance_ami_id="ami-090d68841c2a28756"
-instance_type="t3.micro"
-subnet_id="subnet-06eb123fa59d653ac"
-environment="dev"
-```
-
 ## Output Values
 
 The configuration exposes output values for the EC2 instance:
